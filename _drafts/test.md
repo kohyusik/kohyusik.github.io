@@ -11,4 +11,18 @@ _test_<br/>
 1. 2342424
 2. 테스트
 
+~~~javascript
+function test() {
+    console.log('hell world');
+}
 
+~~~
+
+
+
+
+<pre>
+  <code class="ruby">
+    puts "hello"
+  </code>
+</pre>
