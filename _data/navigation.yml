@@ -1,11 +1,11 @@
 # main links
 main:
+  - title: "Category"
+    url: /categories/
   - title: "Archive"
     url: /year-archive/
   - title: "Tag"
     url: /tags/
-  - title: "Category"
-    url: /categories/
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
@@ -16,3 +16,28 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+
+# Javascript sidebar
+sidebar-javascript:
+  - title: "Javascript"
+    children:
+    - title: "data() VS dataset"
+      url: "/javascript/jquery-data(),-html5-dataset/"
+#  - title: "Java"
+#    children:
+#    - title: "TEST"
+#      url: "/java/TEST2/"
+#    - title: "TEST"
+#      url: "/java/TEST2/"
+
+# Java sidevar
+sidebar-java:
+  - title: "Javascript"
+    children:
+    - title: "data() VS dataset"
+      url: "/javascript/jquery-data(),-html5-dataset/"
+#  - title: "Java"
+#    children:
+#    - title: "TEST"
+#      url: "/java/TEST2/"

@@ -1,7 +1,8 @@
 ---
 title: "HTML5 dataset, jQuery data()"
 author_profile: true
-
+categories: 
+  - javascript
 ---
 
 
