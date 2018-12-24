@@ -1,6 +1,8 @@
 ---
-title: "Websocket Server"
+title: "Websocket Server!!!"
 author_profile: true
+image:
+  teaser: https://avatars0.githubusercontent.com/u/12326850?s=400&v=4
 
 ---
 
@@ -10,7 +12,7 @@ HTML5 dataset
 
 `Websocket` data frame 에 맞춰 server 구현
 
-~~~java
+``` java
 String unique = headers.get("Sec-WebSocket-Key") + WS_MAGIC_STRING;
 MessageDigest md = MessageDigest.getInstance("SHA-1");
 md.update(unique.getBytes());
@@ -88,7 +90,7 @@ while (true) {
     streamIndex++;
 
 }
-~~~
+```
 
 
 참고 : [HTMLElement.dataset](https://developer.mozilla.org/ko/docs/Web/API/HTMLElement/dataset){:target="_blank"}
