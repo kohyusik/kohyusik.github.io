@@ -8,6 +8,7 @@ toc: true
 
 inner class 를 이용한 빌더 패턴
 --------------------
+
 [inner class]
 ```javascript
 class User {
