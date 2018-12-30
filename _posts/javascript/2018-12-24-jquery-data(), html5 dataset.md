@@ -1,7 +1,9 @@
 ---
-title: "HTML5 dataset, jQuery data()"
+title: "HTML5 dataset vs jQuery data()"
 author_profile: true
-
+categories: 
+  - javascript
+toc: true
 ---
 
 
@@ -70,6 +72,7 @@ jqueryData = $test.data('test');
 // 최초에 세팅 된 값을 가져오기 때문에 이전 값인 html 출력
 console.log(jqueryData); // print "html"
 console.log($test.attr('data-test')); // print "HTML"
-~~~
-두가지를 같은 값을 가져온다고 생각하고 혼용해서 사용하는 것은 위험해 보인다.
-확실히 이해하고 사용하던가, 한가지만을 사용해 원하는 데이터가 제대로 얻을 수 있다.
+~~~  
+
+dataset, data() 작동 원리와 차이를 이해하고 사용하면 상황에 맞게 적절하게 활용할 수 있다.
+차이를 모르고 두가지 모두 혼용해서 사용하게 되면 원하지 않는 결과를 초래할 수도 있다.
