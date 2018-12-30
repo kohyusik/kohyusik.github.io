@@ -4,6 +4,11 @@ author_profile: true
 categories: 
   - javascript
 toc: true
+comments: true
+tags:
+  - javascipt
+  - jquery
+  - dataset
 ---
 
 

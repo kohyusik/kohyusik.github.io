@@ -4,6 +4,11 @@ author_profile: true
 categories: 
   - javascript
 toc: true
+comments: true
+tags:
+  - javascipt
+  - design pattern
+  - builder
 ---
 
 inner class 를 이용한 빌더 패턴
